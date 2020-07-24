@@ -1,10 +1,10 @@
 ![](/imagens/capacurso.jpg)
 # Informações sobre o projeto
-Esse repositório destina-se ao desenvolvimento do Sistema de controle de pacientes. O sistema que esta sendo desenvolvido pela comunidade de desenvolvedores que compartilham seus conhecimentos juntamente com o dfilitto ([site](https://dfilitto.com.br/), [YouTube](https://www.youtube.com/danilofilittoppr)).
+Esse repositório destina-se ao desenvolvimento do Sistema de controle de pacientes. O sistema esta sendo desenvolvido pela comunidade de desenvolvedores que compartilham seus conhecimentos juntamente com o dfilitto ([site](https://dfilitto.com.br/), [YouTube](https://www.youtube.com/danilofilittoppr)).
 
 É possível acompanhar o desenvolvimento do sistema por meio do nosso [canal no YouTube](http://www.youtube.com/channel/UCryuJNaryiAa4vQaO2_RXtw?sub_confirmation=1).
 
-O sistema esta sendo desenvolvido utilizando os seguintes recursos tecnologicos:
+O sistema utiliza os seguintes recursos tecnologicos:
 - HTML
 - CSS
 - Javascript
@@ -12,6 +12,7 @@ O sistema esta sendo desenvolvido utilizando os seguintes recursos tecnologicos:
 - PHP
 - MySQl/MariaDB
 
+## Documentação e gerenciamento do projeto
 A seção Project e Wiki do GitHub serão utilizadas para:
 - Project: Controlar as ações que deverão ser executadas durente o desenvolvimento do projeto.
 - Kiwi: Documentar o projeto, descrevendo suas funcionalidades, seu modelo de dados, suas classes, etc.
