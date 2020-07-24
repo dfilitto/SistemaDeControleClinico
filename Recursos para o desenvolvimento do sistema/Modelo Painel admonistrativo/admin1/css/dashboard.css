@@ -1,0 +1,149 @@
+body{
+    background-color: #f0f0f0;
+}
+.menu-header{
+    color: #ffffff !important;
+}
+
+/* INICIO SIDE BAR */
+.sidebar{
+    min-width: 250px;
+    max-width: 250px;
+    background-color: #ffffff;    
+    min-height: calc(100vh - 64px);
+    transition: all 0.5s;
+}
+
+.sidebar ul li a{
+    display: block;
+    padding: 0.75rem 1rem;
+    color: #4c4747;
+    text-decoration: none;
+}
+
+.sidebar ul .active a{
+    color: #ffffff;
+    background-color:  #e15024;    
+}
+
+.sidebar ul li a:hover{
+    color: #ffffff;
+    background-color:  #ff5722;
+}
+.sidebar ul ul a{
+    padding-left: 2.5rem;
+    background-color: #c0c0c0;
+}
+
+.sidebar.toggled{
+    margin-left: -250px;
+}
+
+@media(max-width: 960px){
+    .sidebar{
+        margin-left: -250px;
+    }
+    .sidebar.toggled{
+        margin-left: 0px;
+    }
+}
+.sidebar [data-toggle="collapse"]{
+    position: relative;
+}
+.sidebar [data-toggle="collapse"]::before{
+    content: "\f053";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    right: 1rem;
+}
+.sidebar [aria-expanded="true"]{
+    background-color: #fa430b;
+    color: #ffffff;
+}
+.sidebar [aria-expanded="true"]::before{
+   content: "\f078";
+}
+
+/* INICIO SIDE BAR */
+
+/* INICIO CONTEUDO */
+.content{
+    width: 100%;
+}
+.titulo-pagina{
+    font-size: 2.0rem !important;
+}
+/* FIM CONTEUDO */
+
+
+
+
+
+/* INICIO MINHAS CORES */
+.bg-black{
+    background-color: #000000;
+}
+
+.bg-red{
+    background-color: #F44336;
+}
+.bg-pink{
+    background-color: #E91E63;
+}
+.bg-purple{
+    background-color: #9C27b0;
+}
+.bg-deep-puple{
+    background-color: #673ab7;
+}
+.bg-indico{
+    background-color: #3f51b5;
+}
+.bg-blue{
+    background-color: #2196f3;
+}
+.bg-light-blue{
+    background-color: #03a9f4;
+}
+.bg-cyan{
+    background-color: #00bcd4;
+}
+.bg-teal{
+    background-color: #009688;
+}
+.bg-green{
+    background-color: #4caf50;
+}
+.bg-light-green{
+    background-color: #8bc34a;
+}
+.bg-lime{
+    background-color: #cddc39;
+}
+.bg-yellow{
+    background-color: #ffeb3b;
+}
+.bg-amber{
+    background-color: #ffc107;
+}
+.bg-orange{
+    background-color: #ff9800;
+}
+.bg-deep-orange{
+    background-color: #ff5722;
+}
+.bg-brown{
+    background-color: #795548;
+}
+.bg-grey{
+    background-color: #9e9e9e;
+}
+.bg-blue-grey{
+    background-color: #607d8b;
+}
+
+
+
+
+/* FIM MINHAS CORES */

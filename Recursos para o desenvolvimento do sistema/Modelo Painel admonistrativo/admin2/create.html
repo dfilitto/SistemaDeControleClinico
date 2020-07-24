@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/myBootstrap.css">
+    <!-- FontWaesome 5.8.2 -->
+    <link rel="stylesheet" href="assets/library/fontawesome-free/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/stylePainel.css">
+    <title>Meu Painel Administrativo!</title>
+</head>
+
+<body>
+    <!-- topbar -->
+    <nav class="navbar navbar-expand navbar-dark bg-indigo shadow">
+
+        <a class="navbar-brand" href="index.html">Painel Administrativo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <a class="sidebarToggler text-light ml-3 mr-5">
+            <span class="navbar-toggler-icon"></span>
+        </a>
+
+        <div class="collapse navbar-collapse">
+
+            <!-- mensagens e avisos -->
+            <ul class="navbar-nav mr-auto">
+
+                <!-- meus avisos -->
+                <li class="nav-item iconItem">
+                    <a class="nav-link iconLink">
+                        <i class="far fa-bell fa-lg"></i>
+                    </a>
+                </li>
+                <!-- fim meus avisos -->
+
+                <!-- minhas mensagens -->
+                <li class="nav-item iconItem">
+                    <a class="nav-link iconLink">
+                        <i class="far fa-bell fa-lg"></i>
+                    </a>
+                </li>
+                <!-- fim minhas mensagens -->
+
+            </ul>
+            <!-- end mensagens e avisos -->
+
+
+
+            <!-- usuaio logado -->
+            <ul class="navbar-nav ml-auto">
+                <!-- usuario logado -->
+                <li class="nav-item dropdown ml-auto">
+                    <a class="nav-link dropdown-toggle user-title" href="#" data-toggle="dropdown" id="dropUserLogged">
+                        <img src="assets/imagens/sistema/geral/no-avatar.png" class="rounded-circle"
+                            alt="Imagem do Usuário logado" width="35" height="35">
+                        <span class="d-none d-md-inline mx-2">Olá, Valter Couto</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropUserLogged">
+                        <a class="dropdown-item py-2" href="#"><i class="far fa-user-circle fa-lg mr-3"></i>Minha
+                            Conta</a>
+                        <a class="dropdown-item py-2" href="#"><i class="fas fa-bullhorn fa-lg mr-3"></i>Meus
+                            Chamados</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item text-danger py-2" href="#"><i
+                                class="fas fa-sign-out-alt fa-lg mr-3 text-danger"></i>Sair do Sistema</a>
+                    </div>
+                </li>
+                <!-- fim usuario logado -->
+
+            </ul>
+            <!-- end usuaio logado -->
+        </div>
+    </nav>
+    <!-- end topbar -->
+
+
+    <!-- conteudo -->
+    <div class="d-flex">
+        <!-- sidebar left-->
+        <nav class="sidebarLeft shadow">
+            <ul class="list-unstyled">
+                <li class="nav-item"><a href="index.html"><i class="fas fa-home fa-lg mr-3"></i>Dashboard</a></li>
+                <li class="nav-item"><a href="#"><i class="fas fa-chart-line fa-lg mr-3"></i>Gráficos</a></li>
+
+                <li class="nav-item">
+                    <a href="#submenu1" data-toggle="collapse">
+                        <i class="fas fa-users fa-lg mr-3"></i>Usuários
+                    </a>
+                    <ul class="list-unstyled collapse" id="submenu1">
+                        <li>
+                            <a href="users.html">
+                                <i class="fas fa-list-ol fa-lg mr-3"></i>Listar Usuários
+                            </a>
+                            <a href="#">
+                                <i class="fas fa-align-left fa-lg mr-3"></i>Níveis de Acesso
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item"><a href="#"><i class="far fa-file-alt fa-lg mr-3"></i>Páginas</a></li>
+                <li class="nav-item"><a href="#"><i class="fas fa-images fa-lg mr-3"></i>Item 01</a></li>
+                <li class="nav-item"><a href="#"><i class="fas fa-align-center fa-lg mr-3"></i>Item 02</a></li>
+                <li class="nav-item active"><a href="#">Item 03</a></li>
+                <li class="nav-item"><a href="#"><i class="fas fa-sign-out-alt fa-lg mr-3"></i>Sair do Sistema</a></li>
+            </ul>
+        </nav>
+        <!-- end sidebar left-->
+
+        <div class="content px-2 pt-1">
+            <div class="list-group-item bg-transparent border-0">
+                <!-- cabeçalho -->
+                <div class="d-flex">
+                    <div class="mr-auto">
+                        <h2 class="text-secondary">Cadastrar Usuário</h2>
+                    </div>
+                    <a href="users.html">
+                        <div class="p-2">
+                            <button class="btn btn-outline-secondary btn150">
+                                <i class="fas fa-undo-alt fa-lg mr-2"></i>Listar todos
+                            </button>
+                        </div>
+                    </a>
+                </div>
+                <hr class="text-muted">
+                <!-- end cabeçalho -->
+
+                <!-- row conteudo -->
+                <div class="row">
+                    <div class="col-12">
+                        <form>
+                            <div class="row">
+
+                                <div class="col-sm-12 col-md-5">
+                                    <div class="card">
+                                        <div class="card-body cardNewUserImage">
+                                            <img src="assets/imagens/sistema/geral/no-avatar.png"
+                                                class="img-fluid m-0 p-0" alt="Imagem do Usuario">
+                                        </div>
+                                        <div class="card-footer">
+                                                <div class="input-group">
+                                                    <div class="custom-file">
+                                                        <input type="file" class="custom-file-input" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04">
+                                                        <label class="custom-file-label" for="inputGroupFile04">Selecione uma imagem</label>
+                                                    </div>                                                       
+                                                </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-sm-12 col-md-7">
+
+                                    <!-- nome -->
+                                    <div class="form-row">
+                                        <div class="form-group col-md-12">
+                                            <label for="nome"><span class="text-danger mr-2">*</span>Nome
+                                                Completo</label>
+                                            <input type="text" class="form-control form-control-lg" name="nome"
+                                                id="nome" placeholder="Sem abreviações">
+                                        </div>
+                                    </div>
+
+                                    <!-- email -->
+                                    <div class="form-row">
+                                        <div class="form-group col-md-12">
+                                            <label for="email"><span class="text-danger mr-2">*</span>E-mail</label>
+                                            <input type="email" class="form-control" name="email" id="email"
+                                                placeholder="Será o login no sistema">
+                                        </div>
+                                    </div>
+
+                                    <!-- senha e confirma senha -->
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label for="senha"><span class="text-danger mr-2">*</span>Senha</label>
+                                            <input type="password" class="form-control" name="senha" id="senha"
+                                                placeholder="Mínimo 6 caracteres">
+                                        </div>
+
+                                        <div class="form-group col-md-6">
+                                            <label for="confirma_senha"><span class="text-danger mr-2">*</span>Confirme
+                                                a Senha</label>
+                                            <input type="password" class="form-control" name="confirma_senha"
+                                                id="confirma_senha" placeholder="Mínimo 6 caracteres">
+                                        </div>
+                                    </div>
+
+
+                                    <!-- senha e confirma senha -->
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label for="inputState">Nível de Acesso</label>
+                                            <select id="inputState" class="form-control">
+                                                <option selected>Choose...</option>
+                                                <option>...</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group col-md-6">
+                                            <label for="inputState">Sítuação do Usuário</label>
+                                            <select id="inputState" class="form-control">
+                                                <option selected>Choose...</option>
+                                                <option>...</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="form-group col-md-12 text-right">
+                                    <button type="submit" class="btn btn-outline-primary btn150">
+                                        <i class="far fa-save fa-lg mr-2"></i>Cadastrar
+                                    </button>
+                                </div>
+
+                            </div>
+
+
+
+                        </form>
+                    </div>
+
+
+                </div>
+                <!-- end row conteudo -->
+
+            </div>
+        </div>
+    </div>
+    <!-- end conteudo -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/library/jquery/jquery-3.4.1.min.js"></script>
+    <script src="assets/library/popper-js/popper.min.js"></script>
+    <script src="assets/library/bootstrap-4.3.1/dist/js/bootstrap.min.js"></script>
+    <!-- Cutom JS-->
+    <script src="assets/js/scriptsPainel.js"></script>
+</body>
+
+</html>
