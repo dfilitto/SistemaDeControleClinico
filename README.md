@@ -1,4 +1,4 @@
-![](/imagens/capacurso.jpg)
+![](/imagens/Sistema%20de%20controle%20cl%C3%ADnico.jpg)
 # Informações sobre o projeto
 O Sistema de controle de pacientes é desenvolvido de forma colaborativa pela comunidade de desenvolvedores que compartilham seus conhecimentos juntamente com o dfilitto ([site](https://dfilitto.com.br/), [YouTube](https://www.youtube.com/danilofilittoppr)).
 
